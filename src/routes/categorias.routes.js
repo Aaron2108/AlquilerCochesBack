@@ -11,7 +11,7 @@ router.get('/categorias/:id',getCategoria)
 
 router.post('/categorias',createCategorias)
 
-router.patch('/categorias/:id',updateCategoria)
+router.put('/categorias/:id',updateCategoria)
 
 router.delete('/categorias/:id',deleteCategoria)
 

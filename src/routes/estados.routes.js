@@ -10,7 +10,7 @@ router.get("/estados/:id", getEstado );
 
 router.post("/estados", createEstado);
 
-router.patch("/estados/:id",updateEstado );
+router.put("/estados/:id",updateEstado );
 
 router.delete("/estados/:id", deleteEstado);
 

@@ -10,7 +10,7 @@ router.get('/rol/:id', getRol);
 
 router.post('/rol', createRols);
 
-router.patch('/rol/:id', updateRol);
+router.put('/rol/:id', updateRol);
 
 router.delete('/rol/:id', deleteRol);
 

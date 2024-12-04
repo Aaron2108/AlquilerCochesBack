@@ -11,7 +11,7 @@ router.get('/alquileres/:id',getAlquiler );
 
 router.post('/alquileres',createAlquiler );
 
-router.patch('/alquileres/:id', updateAlquiler );
+router.put('/alquileres/:id', updateAlquiler );
 
 router.delete('/alquileres/:id', deleteAlquiler);
 

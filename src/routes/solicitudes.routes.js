@@ -11,7 +11,7 @@ router.get('/solicitudes/:id',getSolicitud );
 
 router.post('/solicitudes', createSolicitud );
 
-router.patch('/solicitudes/:id',updateSolicitud );
+router.put('/solicitudes/:id',updateSolicitud );
 
 router.delete('/solicitudes/:id', deleteSolicitud);
 

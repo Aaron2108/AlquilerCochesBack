@@ -10,7 +10,7 @@ router.get('/vehiculo/:id',getVehiculo );
 
 router.post('/vehiculo',createVehiculo );
 
-router.patch('/vehiculo/:id',updateVehiculo );
+router.put('/vehiculo/:id',updateVehiculo );
 
 router.delete('/vehiculo/:id',deleteVehiculo );
 
